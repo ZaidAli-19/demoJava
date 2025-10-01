@@ -11,7 +11,7 @@ public class DemoJavaApplication {
 
 
 /** The name of the application. */
-private final String name = "DemoJavaApplicationfdgszdgdsfszdfsdfsdfsdzgfsgsfdgdsgfsdgsdf";
+private final String name = "DemoJavaApplication";
 /**
 * The entry point of the application.
 * @param args Command-line arguments.
