@@ -7,5 +7,5 @@ public class Message {
     /**
      * String message.
      */
-    private final String message = "Hello!";
+    private final String message = "Helloo!";
 }
