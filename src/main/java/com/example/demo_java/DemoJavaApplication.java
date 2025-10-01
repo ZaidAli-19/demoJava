@@ -3,11 +3,21 @@ package com.example.demo_java;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * Main application class for the DemoJava Spring Boot application.
+ */
 @SpringBootApplication
 public class DemoJavaApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(DemoJavaApplication.class, args);
-	}
+
+/** The name of the application. */
+private final String name = "DemoJavaApplication";
+/**
+* The entry point of the application.
+* @param args Command-line arguments.
+*/
+public static void main(final String[] args) {
+SpringApplication.run(DemoJavaApplication.class, args);
+}
 
 }
